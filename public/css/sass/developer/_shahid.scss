@@ -303,34 +303,20 @@ body.dark {
 /*====================================================================
 	Page banners layout-1
 =====================================================================*/
-.page-banner {
-  position: relative;
-  width: 100%;
-  padding-bottom: 30%;
 
-  &--about {
-      background-image: url('../img/banner-1.jpg');
-      @include background-image;
-  }
+// .page-banners {
+//     background: url('../img/bg-banner.jpg') center/cover no-repeat;
+//     padding: 140px 0;
+//     position: relative;
+//     text-align: center;
+// }
 
-  &--contact {
-      background-image: url('../img/banner-1.jpg');
-      @include background-image;
-  }
+// .page-banner-caption h5 {
+//     font-size: 36px;
+//     color: #fff;
+//     font-weight: 700;
+// }
 
-  .page-banner-caption {
-      position: absolute;
-      left: 10%;
-      bottom: 20%;
-
-      h5 {
-          font-size: 2.5rem;
-      }
-  }
-}
-.page-banner.carousel {
-  padding: 0;
-}
 
 /*===============================================================
 	Margin classes
@@ -976,6 +962,7 @@ body.dark {
   }
 }
 
+
 .certifications-wrap {
 
   .deafult-heading h2 {
@@ -1133,6 +1120,216 @@ body.dark {
 .icon-circle img {
   width: 130px;
 }
+
+.contact-cta-btn{
+    margin-top: 25px;
+}
+
+.contact-cta-btn {
+    display: inline-block;
+    padding: 0 28px;
+    background: #011e48;        /* Button color */
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contact-cta-btn i {
+    margin-right: 8px;
+}
+
+.contact-cta-btn:hover {
+    background: #011e48;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.20);
+}
+
+.contact-cta {
+    padding: 6rem 0;
+    background: #011e481c;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.cta-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Call Button */
+.call-btn {
+    background: linear-gradient(135deg, #011e48, #011e48);
+}
+
+.call-btn:hover {
+    background: linear-gradient(135deg, #000000, #000000);
+    transform: translateY(-3px);
+}
+
+/* WhatsApp Button */
+.whats-btn {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+}
+
+.whats-btn:hover {
+    background: linear-gradient(135deg, #128c7e, #25d366);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(18, 140, 126, 0.35);
+}
+.faq-section {
+    background: #f8f9fa;
+}
+
+.accordion-item {
+    margin-bottom: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.accordion-button {
+    font-weight: 600;
+    padding: 18px;
+    font-size: 17px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #011e48;
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion-button i {
+    font-size: 20px;
+}
+
+.accordion-body {
+    background: #fff;
+    padding: 20px;
+    font-size: 15px;
+    color: #444;
+}
+
+
+
+/* Process Boxes */
+.process-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.process-box:hover {
+    transform: translateY(-6px);
+}
+
+.step-number {
+    font-size: 26px;
+    font-weight: 700;
+    color: #011e48;
+}
+
+/* Features */
+.feature-box {
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.feature-box i {
+    font-size: 35px;
+    color: #011e48;
+    margin-bottom: 10px;
+}
+
+/* CTA */
+.cta-section {
+    background: linear-gradient(135deg, #011e48, #011e48);
+}
+
+/* Team Cards */
+.team-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+}
+
+.team-img {
+    width: 100%;
+    border-radius: 12px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.designation {
+    font-size: 14px;
+    color: #011e48;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Vision/Mission */
+.vision-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+}
+
+.vision-box h4 {
+    font-size: 22px;
+    color: #011e48;
+    margin-bottom: 12px;
+}
+
+/* CTA */
+.cta-section {
+    background: linear-gradient(135deg, #011e48, #011e48);
+}
+
 
 
 // Contact

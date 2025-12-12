@@ -66,7 +66,7 @@
 									<div class="col-lg-12 col-md-6">
 										<div class="contact-section__widget">
 											<h5>Connect with us:</h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tempore ducimus.</p>
+											<p>We're Here to Help — Reach Out Anytime</p>
 										</div>
 									</div>
 									<div class="col-lg-12 col-md-6">
@@ -129,7 +129,7 @@
 			</section>
 			
 			<section class="contact-map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5362188571066!2d77.0853073!3d28.613687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e4b3b5c3a1%3A0x7dac887432b854cf!2sDigilinkers%20-%20Best%20Digital%20Marketing%20Agency%20in%20Delhi%20%7C%20Website%20Development!5e0!3m2!1sen!2sin!4v1738940998370!5m2!1sen!2sin" width="1920" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.52518748355!2d75.71911257497607!3d29.149192160432374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391239d53d81031f%3A0x7efe57d4adfa49fa!2sOliver%20Power%20Solution!5e0!3m2!1sen!2sin!4v1765536216124!5m2!1sen!2sin" width="1920" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</section>
 
 		</div>
