@@ -38,7 +38,7 @@
 									<div class="footer-wrap">
 										<h5>Connect Us</h5>
 										<ul class="contact-list">
-											<li><i class="fa-solid fa-phone"></i><a href="tel:"> +91-9999999999</a></li>
+											<li><i class="fa-solid fa-phone"></i><a href="tel:1800120114114"> 1800120114114</a></li>
 											<li><i class="fa-solid fa-envelope"></i><a href="mailto:">
 													contact@oliverbattery.com</a></li>
 											<li><i class="fa-solid fa-location-dot"></i> Delhi </li>

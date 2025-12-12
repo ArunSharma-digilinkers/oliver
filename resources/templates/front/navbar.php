@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>about-us">About</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $path; ?>management">Management</a>
+                </li>
                 <li class="nav-item dropdown-nav">
                     <a class="nav-link dropdown-nav-link" >Products</a>
                     <i class="fa-solid fa-chevron-down hidden-menu"></i>
@@ -24,6 +27,10 @@
                         <li><a href="<?php echo $path; ?>e-rickshaw-batteries">E-rickshaw Batteries</a></li>
                     </ul> 
                 </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $path; ?>manufacturing">Manufacturing</a>
+                </li>
+               
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>gallery">Gallery</a>
                 </li>
