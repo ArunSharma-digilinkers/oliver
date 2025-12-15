@@ -16,11 +16,12 @@
 									<div class="footer-wrap">
 										<h5>Quicks Links</h5>
 										<ul>
-											<li><a href="">Home</a></li>
-											<li><a href="">About</a></li>
-											<li><a href="">Manufacturing</a></li>
-											<li><a href="">Gallery</a></li>
-											<li><a href="">Contact</a></li>
+											<li><a href="<?php echo $path; ?>">Home</a></li>
+											<li><a href="<?php echo $path; ?>about-us">About Us</a></li>
+											<li><a href="<?php echo $path; ?>management">Management</a></li>
+											<li><a href="<?php echo $path; ?>manufacturing">Manufacturing</a></li>
+											<li><a href="<?php echo $path; ?>gallery">Gallery</a></li>
+											<li><a href="<?php echo $path; ?>contact-us">Contact Us</a></li>
 										</ul>
 									</div>
 								</div>
@@ -28,9 +29,8 @@
 									<div class="footer-wrap">
 										<h5>Products</h5>
 										<ul>
-											<li><a href="">Automotive</a></li>
-											<li><a href="">Tall Tubular</a></li>
-											<li><a href="">E-rickshaw</a></li>
+											<li><a href="<?php echo $path ?>tubular-batteries">Tall Tubular</a></li>
+											<li><a href="<?php echo $path ?>tubular-batteries">Short Tubular</a></li>
 										</ul>
 									</div>
 								</div>
@@ -39,9 +39,9 @@
 										<h5>Connect Us</h5>
 										<ul class="contact-list">
 											<li><i class="fa-solid fa-phone"></i><a href="tel:1800120114114"> 1800120114114</a></li>
-											<li><i class="fa-solid fa-envelope"></i><a href="mailto:">
+											<li><i class="fa-solid fa-envelope"></i><a href="mailto:contact@oliverbattery.com">
 													contact@oliverbattery.com</a></li>
-											<li><i class="fa-solid fa-location-dot"></i> Delhi </li>
+											<li><i class="fa-solid fa-location-dot"></i> Kutubpur Village, Teh Hansi, Distt. Hisar, Near Maiyad Toll Plaza, Hisar </li>
 										</ul>
 									</div>
 								</div>

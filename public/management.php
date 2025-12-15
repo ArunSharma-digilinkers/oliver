@@ -46,7 +46,7 @@
                     <div class="col-md-4">
                         <div class="team-card">
                             <img src="images/team1.jpg" class="team-img" alt="Director">
-                            <h5 class="mt-3">Mr. Rahul Sharma</h5>
+                            <h5 class="mt-3">Mr. xyz</h5>
                             <p class="designation">Founder & Managing Director</p>
                             <p class="team-info">
                                 With 20+ years of industry experience, he leads the company with a vision focused on
@@ -58,7 +58,7 @@
                     <div class="col-md-4">
                         <div class="team-card">
                             <img src="images/team2.jpg" class="team-img" alt="CEO">
-                            <h5 class="mt-3">Mrs. Neha Verma</h5>
+                            <h5 class="mt-3">Mr. xyz</h5>
                             <p class="designation">Chief Executive Officer</p>
                             <p class="team-info">
                                 She ensures operational efficiency, growth strategy, and high-quality standards across
@@ -70,7 +70,7 @@
                     <div class="col-md-4">
                         <div class="team-card">
                             <img src="images/team3.jpg" class="team-img" alt="Technical Head">
-                            <h5 class="mt-3">Mr. Amit Khanna</h5>
+                            <h5 class="mt-3">Mr. xyz</h5>
                             <p class="designation">Technical Head</p>
                             <p class="team-info">
                                 An expert in lithium and tubular battery technology, he oversees product R&D and

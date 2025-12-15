@@ -13,7 +13,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>about-us">About</a>
+                    <a class="nav-link" href="<?php echo $path; ?>about-us">About Us</a>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>management">Management</a>
@@ -23,8 +23,6 @@
                     <i class="fa-solid fa-chevron-down hidden-menu"></i>
                     <ul class="sub-drop sub-menu">
                         <li><a href="<?php echo $path; ?>tubular-batteries">Tubular Batteries</a></li>
-                        <li><a href="<?php echo $path; ?>automotive-batteries">Automotive Batteries</a></li>
-                        <li><a href="<?php echo $path; ?>e-rickshaw-batteries">E-rickshaw Batteries</a></li>
                     </ul> 
                 </li>
                   <li class="nav-item">
@@ -35,7 +33,7 @@
                     <a class="nav-link" href="<?php echo $path; ?>gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>contact-us">Contact</a>
+                    <a class="nav-link" href="<?php echo $path; ?>contact-us">Contact Us</a>
                 </li>
             </ul>
         </div>

@@ -40,11 +40,12 @@
         <!-- Process Section -->
         <section class="process-section py-5 bg-light">
             <div class="container">
-                <h3 class="text-center mb-4">Our Manufacturing Process</h3>
+                <h3 class="text-center mb-5">Our Manufacturing Process</h3>
                 <div class="row g-4">
 
                     <div class="col-md-4">
                         <div class="process-box">
+                            <img src="<?php echo $path; ?>img/raw-materials.png" alt="" class="img-fluid">
                             <span class="step-number">01</span>
                             <h5>Raw Material Selection</h5>
                             <p>We use high-grade lead, lithium cells, and premium components for consistent performance.
@@ -54,6 +55,7 @@
 
                     <div class="col-md-4">
                         <div class="process-box">
+                            <img src="<?php echo $path; ?>img/assembly-line.png" alt="" class="img-fluid">
                             <span class="step-number">02</span>
                             <h5>Automated Assembly</h5>
                             <p>Machines ensure accuracy in plate production, cell welding, and container assembly.</p>
@@ -62,6 +64,7 @@
 
                     <div class="col-md-4">
                         <div class="process-box">
+                            <img src="<?php echo $path; ?>img/quality-control.png" alt="" class="img-fluid">
                             <span class="step-number">03</span>
                             <h5>Quality Testing</h5>
                             <p>Each battery undergoes rigorous tests for capacity, backup time, charging, and safety.
@@ -71,6 +74,7 @@
 
                     <div class="col-md-4">
                         <div class="process-box">
+                            <img src="<?php echo $path; ?>img/electrolytes.png" alt="" class="img-fluid">
                             <span class="step-number">04</span>
                             <h5>Electrolyte Filling</h5>
                             <p>Accurate electrolyte filling with automated machines ensures battery longevity.</p>
@@ -79,6 +83,7 @@
 
                     <div class="col-md-4">
                         <div class="process-box">
+                            <img src="<?php echo $path; ?>img/full-battery.png" alt="" class="img-fluid">
                             <span class="step-number">05</span>
                             <h5>Final Charging</h5>
                             <p>Batteries undergo controlled charging cycles for balanced performance.</p>
@@ -87,6 +92,7 @@
 
                     <div class="col-md-4">
                         <div class="process-box">
+                               <img src="<?php echo $path; ?>img/package.png" alt="" class="img-fluid">
                             <span class="step-number">06</span>
                             <h5>Packing & Dispatch</h5>
                             <p>Safe, durable packaging ensures the product reaches customers in perfect condition.</p>

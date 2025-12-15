@@ -57,12 +57,9 @@
 
 							</div>
 						</div> 
-
 						<div class="col-lg-4 col-md-12">
 							<div class="contact-section">
-
 								<div class="row">
-
 									<div class="col-lg-12 col-md-6">
 										<div class="contact-section__widget">
 											<h5>Connect with us:</h5>
@@ -80,13 +77,13 @@
 									<div class="col-lg-12 col-md-6">
 										<div class="contact-section__widget">
 											<h5>Email to us:</h5>
-											<p><a href="mailto:info@oliverbatteries.com">
-												info@oliverbatteries.com
+											<p>
+												<a href="mailto:info@oliverbatteries.com">
+												    info@oliverbatteries.com
 												</a>
 											</p>
 										</div> 
 									</div> 
-
 									<div class="col-lg-12 col-md-6">
 										<div class="contact-section__widget">
 											<h5>Social Presence</h5>

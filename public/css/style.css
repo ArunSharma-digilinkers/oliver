@@ -2426,6 +2426,105 @@ img.zoom {
   margin-top: 2rem;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #011e48;
+  line-height: 30px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  border: solid 2px #011e48;
+  color: #000 !important;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.product-wrap-container h4 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1f2937;
+  border-left: 5px solid #0d6efd;
+  padding-left: 15px;
+}
+
+/* Image Box */
+.automotive-wrap-img {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.automotive-wrap-img img {
+  max-height: 380px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.automotive-wrap-img:hover img {
+  transform: scale(1.08);
+}
+
+/* Table Styling */
+.product-wrap-container .table {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.product-wrap-container .table tbody tr {
+  border-bottom: 1px solid #eef2f7;
+  transition: background 0.3s ease;
+}
+
+.product-wrap-container .table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.product-wrap-container .table th {
+  width: 45%;
+  background: #f8fafc;
+  font-weight: 600;
+  color: #374151;
+  padding: 14px 18px;
+  border: none;
+}
+
+.product-wrap-container .table td {
+  font-weight: 500;
+  color: #111827;
+  padding: 14px 18px;
+  border: none;
+}
+
+/* Highlight warranty row */
+.product-wrap-container .table tr:last-child td {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-wrap-container {
+    padding: 40px 0;
+  }
+  .product-wrap-container h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .automotive-wrap-img {
+    margin-bottom: 25px;
+  }
+}
 /*====================================================================
 	Footer layout-1
 =====================================================================*/
@@ -2530,6 +2629,48 @@ img.zoom {
 
 .creator-link:hover {
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .s1 {
+    margin-top: 215px;
+  }
+  .navbar {
+    background-color: #002559 !important;
+  }
+  #digiCarousel .banner-caption {
+    color: #fff;
+    position: absolute;
+    top: 13%;
+    animation: slideInRight 1.5s ease-out forwards;
+    opacity: 0;
+  }
+  #digiCarousel .banner-caption h2 {
+    color: #ffc86b;
+    font-size: 27px;
+    font-weight: 800;
+  }
+  #digiCarousel .banner-caption h3 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .hm-row {
+    position: relative !important;
+    top: 0 !important;
+  }
+  .hm-row img {
+    display: none;
+  }
+  .s1 .info {
+    margin-top: 40px;
+    padding: 0 45px;
+    position: relative;
+  }
+}
+.process-section img {
+  width: 200px;
+  margin-bottom: 15px;
 }
 
 /*====================================================================
@@ -2744,6 +2885,17 @@ img.zoom {
   line-height: 50px;
   text-transform: capitalize;
   letter-spacing: 1.2px;
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: rgb(0, 37, 89);
+  background-color: #fff;
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  /* border-radius: var(--bs-navbar-toggler-border-radius); */
+  transition: var(--bs-navbar-toggler-transition);
 }
 
 .dark .navbar {
@@ -3226,6 +3378,18 @@ nav.side-nav .list-item .nav-item {
   color: #f7f7f7;
 }
 
+@media (max-width: 1200px) {
+  #digiCarousel .banner-caption h2 {
+    color: #ffc86b;
+    font-size: 56px;
+    font-weight: 800;
+  }
+  #digiCarousel .banner-caption h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
 /*===============================================================
 	About us page
 =================================================================*/

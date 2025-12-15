@@ -59,7 +59,7 @@
         <div class="cta-one section-entry" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-sm-12">
+                    <div class="col-lg-8 col-sm-12 mb-4">
                         <div class="cta-wrap">
                             <h2>
                                 Tired of unexpected power cuts disrupting your life?
@@ -191,7 +191,7 @@
         <div class="hm-product-wrapper section-entry" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-12">
+                    <div class="col-lg-4 col-sm-12 mb-4">
                         <div class="deafult-heading">
                             <h2>
                                 Our Products
@@ -260,17 +260,17 @@
                             certified so you can choose Oliver with complete confidence.
                         </p>
                     </div>
-                    <div class="col-lg-3 col-sm-12 iso-certi">
+                    <div class="col-lg-3 col-sm-12 iso-certi mb-4">
                         <div class="iso">
                             <img src="<?php echo $path; ?>img/iso-2-min-300x300.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-12 iso-certi">
+                    <div class="col-lg-3 col-sm-12 iso-certi mb-4">
                         <div class="iso">
                             <img src="<?php echo $path; ?>img/iso-2-min-300x300.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-12 iso-certi">
+                    <div class="col-lg-3 col-sm-12 iso-certi mb-4">
                         <div class="iso">
                             <img src="<?php echo $path; ?>img/iso-2-min-300x300.png" alt="" class="img-fluid">
                         </div>
